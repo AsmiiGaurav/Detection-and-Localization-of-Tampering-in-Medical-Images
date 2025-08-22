@@ -67,7 +67,7 @@ A **unified evaluation layer** enables side-by-side assessment and reporting.
 
 ### Blob Tampering 
 
-![Blob tampering](blob_tamper.png)
+![Blob tampering](Blob_tamper.png)
 
 
 
