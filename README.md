@@ -63,6 +63,14 @@ A **unified evaluation layer** enables side-by-side assessment and reporting.
 
 ---
 
+## Lung CT pipeline
+
+### Blob Tampering 
+
+![Blob tampering](blob_tamper.png)
+
+
+
 ## Tech Stack
 - **Languages/Frameworks**: Python, PyTorch (primary), TensorFlow/Keras (optional)  
 - **Libraries**: OpenCV, pydicom, scikit-image, NumPy, scikit-learn, Albumentations, Matplotlib/TensorBoard, tqdm  
