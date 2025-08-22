@@ -70,6 +70,7 @@ A **unified evaluation layer** enables side-by-side assessment and reporting.
 ### Overview
 
 This algorithm performs synthetic tampering on CT scan images by adding fake bright circular "lesions" (blobs) to lung areas. It's designed for creating training data for tamper detection algorithms in medical imaging.
+
 Algorithm Parameters
 
 Number of Blobs: 2-3 per image (obvious tampering)
