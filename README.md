@@ -108,75 +108,75 @@ Only de-identified, public datasets used in this phase
 
 ## Metrics and Reporting
 
-Classification: Accuracy, Precision, Recall, F1-Score
-Segmentation: Dice, IoU
-Explainability: Grad-CAM overlays
-Confusion matrices + PR/F1 summaries exported to reports/
+- Classification: Accuracy, Precision, Recall, F1-Score
+- Segmentation: Dice, IoU
+- Explainability: Grad-CAM overlays
+- Confusion matrices + PR/F1 summaries exported to reports/
 
 --- 
 
 ## Design Highlights and Novelty
 
-Modality-aware dual pipelines vs one-size-fits-all
-Integrated classification + localization for transparency
-Explainable AI outputs aligned with clinical expectations
-Curated tamper dataset with reproducible documentation
-Prototype-ready UI
+- Modality-aware dual pipelines vs one-size-fits-all
+- Integrated classification + localization for transparency
+- Explainable AI outputs aligned with clinical expectations
+- Curated tamper dataset with reproducible documentation
+- Prototype-ready UI
 
 ---
 
 ## Assumptions and Constraints
 
-Base datasets are authentic; tampering is synthetic
-Single-modality input per run (CT vs Mammogram)
-GPU training recommended for practicality
-CT has strong localization ground truth; mammogram localization mainly via explainability
-Clinical deployment requires PACS integration + regulatory approval
+- Base datasets are authentic; tampering is synthetic
+- Single-modality input per run (CT vs Mammogram)
+- GPU training recommended for practicality
+- CT has strong localization ground truth; mammogram localization mainly via explainability
+- Clinical deployment requires PACS integration + regulatory approval
 
 ---
 
 ## Roadmap
 
-Explore Vision Transformers, forensic+DL hybrids, GAN anomaly detection
-Improve robustness: adversarial training, domain adaptation
-Extend modalities: MRI, PET, ultrasound, X-ray
-Deploy with PACS connectors, lightweight on-device inference
-Add blockchain audit trails for security
-Conduct pilot studies with radiologists
+- Explore Vision Transformers, forensic+DL hybrids, GAN anomaly detection
+- Improve robustness: adversarial training, domain adaptation
+- Extend modalities: MRI, PET, ultrasound, X-ray
+- Deploy with PACS connectors, lightweight on-device inference
+- Add blockchain audit trails for security
+- Conduct pilot studies with radiologists
 
 ---
 
 ## UI Preview
 
-Drag-and-drop upload
-Binary decision: Tampered / Untampered
-If tampered: overlay mask/heatmap
-Export report with metrics + confidence
+- Drag-and-drop upload
+- Binary decision: Tampered / Untampered
+- If tampered: overlay mask/heatmap
+- Export report with metrics + confidence
 
 ---
 
 ## Ethics, Privacy, and Standards
 
-Uses de-identified public datasets
-Designed with HIPAA/GDPR awareness
-Adheres to DICOM standards
-Reports include confusion matrices, IoU, Dice
-Explainability emphasized to support clinical trust
+- Uses de-identified public datasets
+- Designed with HIPAA/GDPR awareness
+- Adheres to DICOM standards
+- Reports include confusion matrices, IoU, Dice
+- Explainability emphasized to support clinical trust
 
 ---
 
 ## Citation
 
-If this work helps your research or deployment, please cite:
+- If this work helps your research or deployment, please cite:
 Ronneberger et al., U-Net: Convolutional Networks for Biomedical Image Segmentation (MICCAI 2015)
 He et al., Deep Residual Learning for Image Recognition (CVPR 2016)
-TCIA – Lung CT Diagnosis Dataset
-DDSM / CBIS-DDSM Mammography Dataset
+- TCIA – Lung CT Diagnosis Dataset
+- DDSM / CBIS-DDSM Mammography Dataset
 
 ---
 
 ## Acknowledgments
 
-Mentors: Dr. Shalini Batra, Dr. Geeta Kasana
-TIET Patiala for infrastructure and guidance
-Open-source communities: PyTorch, OpenCV, etc.
+- Mentors: Dr. Shalini Batra, Dr. Geeta Kasana
+- TIET Patiala for infrastructure and guidance
+- Open-source communities: PyTorch, OpenCV, etc.
